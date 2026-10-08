@@ -1,0 +1,59 @@
+/* ====================================================================
+   themes.css — משתני צבע למצב בהיר וכהה (Light / Dark)
+   ==================================================================== */
+
+:root {
+  /* רמות צבע לפי שלב לימוד */
+  --level-1: #22c55e; /* מתחיל  */
+  --level-2: #3b82f6; /* בסיסי  */
+  --level-3: #eab308; /* בינוני */
+  --level-4: #f97316; /* מתקדם  */
+  --level-5: #ef4444; /* מומחה  */
+  --level-6: #a855f7; /* פרויקטים */
+
+  --radius: 14px;
+  --radius-sm: 9px;
+  --shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 14px 40px rgba(0, 0, 0, 0.14);
+  --maxw: 1080px;
+  --font: "Heebo", system-ui, "Segoe UI", Arial, sans-serif;
+  --transition: 0.2s ease;
+}
+
+/* ---------- Light ---------- */
+[data-theme="light"] {
+  --bg: #f4f6fb;
+  --bg-soft: #eef1f8;
+  --surface: #ffffff;
+  --surface-2: #f8fafc;
+  --text: #1a2233;
+  --text-soft: #5a6478;
+  --border: #e3e8f0;
+  --primary: #4f46e5;
+  --primary-ink: #ffffff;
+  --accent: #0ea5e9;
+  --success: #16a34a;
+  --warning: #d97706;
+  --danger: #dc2626;
+  --code-bg: #f1f5f9;
+  --code-text: #0f172a;
+}
+
+/* ---------- Dark ---------- */
+[data-theme="dark"] {
+  --bg: #0f1420;
+  --bg-soft: #131a28;
+  --surface: #1a2232;
+  --surface-2: #212b3d;
+  --text: #e8edf6;
+  --text-soft: #9aa6bd;
+  --border: #2c3650;
+  --primary: #818cf8;
+  --primary-ink: #0f1420;
+  --accent: #38bdf8;
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --danger: #f87171;
+  --code-bg: #0f1829;
+  --code-text: #d6e2f5;
+}

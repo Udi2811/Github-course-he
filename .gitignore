@@ -1,0 +1,8 @@
+# System / editor
+Thumbs.db
+.DS_Store
+*.log
+.vscode/
+
+# Local server artifacts
+__pycache__/
